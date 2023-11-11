@@ -15,7 +15,7 @@ function adicaoJuros(valor, juros) {
 }
 
 const precoProduto = 100
-const formaDePagamento = 4;
+const formaDePagamento = 3;
 
 if (formaDePagamento === 1) {
     console.log(aplicarDesconto(precoProduto, 10));
